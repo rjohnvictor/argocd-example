@@ -6,6 +6,8 @@ spec:
   replicas: 1
   template:
     spec: # Pod spec
+      signatureKeys:
+      - key: 6AD983009DA1DBE0
       containers:
       - name: mycontainer
         image: "devopsjourney1/mywebapp:latest"
